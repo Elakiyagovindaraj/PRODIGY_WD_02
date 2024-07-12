@@ -1,0 +1,62 @@
+body{
+  background-color: lightpink; 
+  text-align: center;
+}
+.stopwatch {
+  width: 400px;
+  height: 200px;
+  background-color: palevioletred;
+  border-radius: 30px;
+  margin: 250px 500px;
+  text-align: center;
+  padding: 25px 15px;
+  position:static;
+  }
+  
+  .display {
+    color:rgb(52, 42, 42);
+    font-size: 36px;
+    padding: 10px;
+  }
+  
+ button {
+    margin: 5px; 
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 40px;
+    border: none;
+    background-color:black;
+    color: whitesmoke;
+  }
+
+  #startBtn:hover{
+     background-color: rgb(105, 172, 105); 
+     
+  }
+ 
+  #pauseBtn:hover{
+    background-color: red;
+  }
+
+  #resetBtn:hover{
+    background-color: yellow;
+    color: black;
+  }
+  
+
+  #lapBtn:hover{
+    background-color:rgb(194, 145, 145);
+    color: white;
+  }
+
+  ul {
+    text-align: center;
+    list-style-type: nne;
+    margin: 10px 100px;
+    color:white;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgb(232, 163, 135);
+    width: 150px;
+  }
+  
